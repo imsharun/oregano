@@ -15,7 +15,7 @@
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 1rem;
         background: #fafafa;
-        border-radius: 12px;
+        border-radius: 20px;
         border: 2px solid #80808026;
     }
 
@@ -76,4 +76,26 @@
     min-width: 70px;
     border-radius: 16px;
     object-fit: cover;
+}
+
+.gallery-gif-container {
+    margin: 20px 0;
+    & .gallery-gif {
+        border-radius: 20px;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.gallery-images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    & .gallery-image {
+        border-radius: 20px;
+        max-width: 48%;
+        object-fit: cover;
+    }
 }
