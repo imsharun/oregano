@@ -1,27 +1,8 @@
-import img22 from '../assets/sample-images/Group 22.png';
-import img25 from '../assets/sample-images/Group 25.png';
 import img19 from '../assets/sample-images/Group 19.png';
+import img22 from '../assets/sample-images/Group 22.png';
 import img24 from '../assets/sample-images/Group 24.png';
+import img25 from '../assets/sample-images/Group 25.png';
 import type { Product } from '../types';
-
-export const liquidProducts: Product[] = [
-  {
-    id: 'oregano-001',
-    name: 'Premium Oregano',
-    price: 5.99,
-    image: img22,
-    description: 'Aromatic oregano perfect for pizzas and pastas.',
-    category: 'Herbs',
-  },
-  {
-    id: 'basil-002',
-    name: 'Fresh Basil',
-    price: 4.5,
-    image: img25,
-    description: 'Sweet basil leaves for delightful sauces.',
-    category: 'Herbs',
-  }
-];
 
 export const powderProducts: Product[] = [
   {
